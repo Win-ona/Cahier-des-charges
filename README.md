@@ -15,7 +15,8 @@ Le site internet va posséder la caractéristique d'un site e-commerce, plusieur
 * Observer les différentes prestations avec les tarifs, les sélectionner et les ajouter au panier
 * Acheter leurs produits, 
 * Recevoir un message la veille d'un rendez-vous
-* Acheter des cartes cadeaux. 
+* Acheter des cartes cadeaux
+* Création d'un programme de fidéliter
 * Les horaires, la map
 * Les réseaux sociaux
 
@@ -28,7 +29,27 @@ Dans un premier temps le site e-commerce permetrrait de faire gagner du temps à
 
 ## Présentation visuelle 
 
- Le visuel devra respecter la charte graphique du logo et les textes. Mais aussi en mettant les valeurs du salon de coiffure en évidence.
-
+ - Le visuel devra respecter la charte graphique du logo et les textes. 
 ![<logo.png>](logo.png)
+- La présentation de l'entreprise et de l'équipe
+- Le lien pour pouvoir créer un compte et/ou se connecter
+- Les différentes prestations proposées
+- un agenda pour pouvoir prendre rendez-vous avec les différentes prestations
+- Les produits proposés à la vente
+- La possibilités à acheter des cartes cadeaux
+- L'apparition du programme de fidélité
+- Une map pour voir l'emplacement du salon de coiffure
+- les logos des réseaux sociaux avec un lien en cliquant dessus
 
+## Fonctionnalité pour le client
+
+Le ou la client.e va tout d'abord passer par la création d'un compte client avec le prénom, le nom, la date de naissance, l'adresse email, le numéro de téléphone afin de créer une base de données. 
+Ensuite il/elle va pouvoir naviger sur le site e-commerce afin de choisir la prestation qu'il/elle souhaite afin de prendre rendez-vous par la suite. 
+Utiliser un moyens de paiement en ligne ou cocher le règlement en boutique.
+Et puis recevoir un message la veille du rendez-vous pour ne pas êre face à des oublis.
+
+
+## Fonctionnalité par l'entreprise
+
+Lors des inscriptions effectués par les clients, l'entreprises va pouvoir collecter les données de ceux-ci avec leurs accords. Dans l'objectif de créer une base de données. 
+Celle-ci permettra d'envoyé des avantages lors des anniversaires ou bien même avec le programme de fidélité mais encore des messages de rappels de rendez-vous...
