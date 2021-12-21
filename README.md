@@ -4,7 +4,7 @@
 
 Grain de Couleur est un salon de coiffure mixte composé d'une équipe de trois personnes ; Cyrille, Amandine et Manon. Ouvert depuis une dizaine d'année du mardi au samedi, la PME a su se différencier des autres salons de coiffure grâce aux colorations végétales. Le bien être des client.e.s est primordiale pour l'entreprise ainsi que celui de la planète. Pour plus d'informations ous pouvez dorénavant les retrouver sur [Facebook](https://www.facebook.com/profile.php?id=100063516872842), et aussi [Instagram](https://www.instagram.com/graindecouleur_/).
 
-Après les réseaux sociaux créer il y a un an et demi pour l'entreprise Grain de Couleur il est tant de se mettre à la page et de créer son propre site internet et de vivre avec son temps. 
+Après les réseaux sociaux créer il y a un an et demi pour l'entreprise Grain de Couleur il est tant de se mettre à la page et de créer son propre site internet et vivre avec son temps. 
 
 ## Description du projet
 

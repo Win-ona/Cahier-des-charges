@@ -1,0 +1,69 @@
+•	Poste
+Libelle 
+Description 
+
+•	Employés
+Nom
+Prénom
+Date de naissance
+N° sécu social
+Date d’entrée 
+Adresse 
+Code postale
+Ville 
+Téléphone 
+Login 
+Mdp
+•	Calendrier 
+Date 
+Heure 
+•	Clients 
+Nom
+Prénom
+Sexe 
+Date de naissance
+Adresse facturation
+Code postale
+Ville 
+Téléphone 
+Mail 
+Login 
+Mdp
+
+•	Produits 
+Libelle 
+Description
+Prix
+Reference
+Stock
+Stock alerte
+Photos
+Date d’ajout 
+Date modif 
+Bloquer 
+•	Catégories 
+Nom 
+•	Prestations 
+Homme 
+Femme 
+Enfant 
+Evènement 
+•	Services 
+Libelle 
+Description
+
+•	Commandes 
+Reference 
+Remise 
+Date 
+Mode de paiement 
+Date de règlement 
+Date de paiement 
+Statut 
+•	Ligne de commande 
+Quantité 
+Remise 
+•	Livraison 
+Date réelle 
+Date d’expédition 
+Date préparation 
