@@ -26,7 +26,7 @@ CREATE TABLE Employées (
 );
 
 CREATE TABLE Réservation (
-	res_id				INT				NOT NULL,
+	res_id				INT				NOT NULL		PRIMARY KEY,
 	res_date			DATE			NOT NULL,
 	res_heure			TIME			NOT NULL,
 	res_cyble			VARCHAR(50)		NOT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE Réservation (
 );
 
 CREATE TABLE Client (
-	cli_id				INT				NOT NULL,
+	cli_id				INT				NOT NULL		PRIMARY KEY,
 	cli_nom				VARCHAR(50)		NOT NULL,
 	cli_prenom			VARCHAR(50)		NOT NULL,
 	cli_sexe			BIT				NOT NULL,
@@ -50,18 +50,18 @@ CREATE TABLE Client (
 	);
 
 CREATE TABLE Services (
-	ser_id				INT				NOT NULL,
+	ser_id				INT				NOT NULL		PRIMARY KEY,
 	ser_libelle			VARCHAR(50)		NOT NULL,
 	ser_description		VARCHAR(255)	NOT NULL,
 );
 
 CREATE TABLE Catégories (
-	cat_id				INT				NOT NULL,
+	cat_id				INT				NOT NULL		PRIMARY KEY,
 	cat_nom				VARCHAR(50)		NOT NULL,
 );
 
 CREATE TABLE Produits (
-	pro_id				INT				NOT NULL,
+	pro_id				INT				NOT NULL		PRIMARY KEY,
 	pro_libelle			VARCHAR(50)		NOT NULL,
 	pro_description		VARCHAR(255)	NOT NULL,
 	pro_prix			DECIMAL(5,2)	NOT NULL,
@@ -75,7 +75,7 @@ CREATE TABLE Produits (
 );
 
 CREATE TABLE Commandes (
-	com_id				INT				NOT NULL,
+	com_id				INT				NOT NULL		PRIMARY KEY,
 	com_reference		VARCHAR(50)		NOT NULL,
 	com_remise			DECIMAL(5,2)	NOT NULL,
 	com_date			DATE			NOT NULL,
@@ -86,13 +86,13 @@ CREATE TABLE Commandes (
 );
 
 CREATE TABLE Ligne_de_commande (
-	lig_id				INT				NOT NULL,
-	li_quantite			INT				NOT NULL,
+	lig_id				INT				NOT NULL		PRIMARY KEY,
+	lig_quantite			INT			NOT NULL,
 	lig_remise			DECIMAL(5,2)	NOT NULL,
 );
 
 CREATE TABLE Livraison (
-	liv_id				INT				NOT NULL,
+	liv_id				INT				NOT NULL		PRIMARY KEY,
 	liv_d_relle			DATETIME		NOT NULL,
 	liv_d_expedition	DATETIME		NOT NULL,
 	liv_d_preparation	DATETIME		NOT NULL,
